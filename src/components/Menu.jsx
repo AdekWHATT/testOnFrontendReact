@@ -118,7 +118,7 @@ export default function MiniDrawer() {
           <Avatars />
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open}>
+      <Drawer onMouseEnter={handleDrawerOpen} variant="permanent" open={open}>
         <DrawerHeader>
           <IconButton>
             <MasksIcon />
