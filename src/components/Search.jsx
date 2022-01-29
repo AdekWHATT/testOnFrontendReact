@@ -55,5 +55,6 @@ const SearchAppBar = () => {
                 inputProps={{ 'aria-label': 'search' }}
             />
         </Search>
-    )}
+    )
+}
 export default SearchAppBar
